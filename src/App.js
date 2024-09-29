@@ -9,13 +9,15 @@ import DayTwoHorizontalScroll from './prac/DayTwoHorizontalScroll';
 import DayThree from './prac/DayThree';
 import DayFour from './prac/DayFour';
 import DayFive from './prac/DayFive';
+import DaySix from './prac/DaySix';
+import DaySixTwo from './prac/DaySixTwo';
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
-    <DayFive />
+    <DaySixTwo />
   )
 }
 
